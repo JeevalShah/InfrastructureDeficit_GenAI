@@ -9,13 +9,14 @@ This repository contains a comprehensive analysis and predictive modeling for th
 1. Introduction
 2. Data Collection
 3. Data Preprocessing
-4. Modeling
-5. Evaluation
-6. Cross Validation
-7. Predictions
-8. Conclusion and Recommendations
-9. How to Use
-10. Dependencies
+4. Data Visualizations
+5. Modeling
+6. Evaluation
+7. Cross Validation
+8. Predictions
+9. Conclusion and Recommendations
+10. How to Use
+11. Dependencies
 
 ## Introduction
 The African Infrastructure Development Index (AIDI) is a composite index used to evaluate infrastructure development across African countries. This project aims to predict the AIDI for different countries using data from various infrastructure sectors. The models built and evaluated in this project include Linear Regression, Ridge Regression, Lasso Regression, Decision Tree, Random Forest, and Gradient Boosting.
@@ -30,6 +31,18 @@ Data for the following infrastructure sectors were collected:
 - Water and Sanitation (WSSCI)
 
 The data is normalized to ensure comparability across sectors.
+
+
+## Data Visualizations
+
+
+[AIDI Prediction by Region](InfrastructureDeficit_GenAI\Images\AIDI.jpeg)
+
+[ECI Prediction by Region](InfrastructureDeficit_GenAI\Images\ECI.jpeg)
+
+[Top And Bottom Performere Prediction](InfrastructureDeficit_GenAI\Images\perfromer.jpeg)
+
+[TCI Prediction](InfrastructureDeficit_GenAI\Images\TCI.jpeg)
 
 ## Data Preprocessing
 The collected data was preprocessed to normalize the values between 0 and 1. This step ensures that the different infrastructure sector indices are on a comparable scale. The normalization process allows for a fair assessment and combination of the indices.
