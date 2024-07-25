@@ -5,7 +5,7 @@ from langchain_groq.chat_models import ChatGroq
 import os
 
 # Initialize the language model
-llm = ChatGroq(model_name="llama3-70b-8192", api_key=" ")
+llm = ChatGroq(model_name="llama3-70b-8192", api_key="GROQ_API_KEY")
 
 # Available datasets
 datasets = {
