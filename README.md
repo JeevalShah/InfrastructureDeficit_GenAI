@@ -83,16 +83,16 @@ Cross-validation was performed to ensure the robustness of the models. The follo
 The models were used to predict the AIDI for specific countries. For example, the predicted AIDI mean% for Nigeria was 17.40, compared to the actual AIDI mean% of 17.16.
 
 ## Data Analytics Chatbot Development
-## Description
+
 The T5 Data Analytics Chatbot is an interactive Streamlit application that allows users to analyze various datasets related to African infrastructure development. Powered by a large language model, this chatbot can answer questions about the data, providing insights and generating visualizations on demand.
 
-## Features
+# Features
 - Interactive data selection from multiple datasets
 - AI-powered question answering about the selected data
 - Dynamic data visualization
 - Question history tracking
 
-## Datasets
+# Datasets
 The application includes the following datasets:
 - Africa Infrastructure Development Index (AIDI)
 - Water and Sanitation Service (WSS) Composite Index
