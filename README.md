@@ -1,12 +1,10 @@
-# InfrastructureDeficit_GenAI
-
-
-# African Infrastructure Development Index (AIDI) Prediction
+# InfrastructureDeficit_GenAI -  African Infrastructure Development Index (AIDI) Prediction
 
 This repository contains a comprehensive analysis and predictive modeling for the African Infrastructure Development Index (AIDI). The analysis utilizes various machine learning models to predict the AIDI based on four key infrastructure sectors: Transport (TCI), Electricity (ECI), Information and Communication Technology (ICT), and Water and Sanitation (WSSCI).
 
-## Table of Contents
-1. Introduction
+## Table of Contents 🔖
+
+- [Introduction](#Introduction)
 2. Data Collection
 3. Data Preprocessing
 4. Data Visualizations
