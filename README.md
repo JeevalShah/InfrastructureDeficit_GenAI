@@ -5,7 +5,7 @@ This repository contains a comprehensive analysis and predictive modeling for th
 ## Table of Contents 🔖
 
 - [Introduction](#Introduction)
-- [Data Collection](#Data-Collection)
+- [Data Collection](#data-collection-floppy_disk)
 3. Data Preprocessing
 4. Data Visualizations
 5. Modeling
