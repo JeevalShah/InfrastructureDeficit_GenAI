@@ -39,7 +39,7 @@ The data is normalized to ensure comparability across sectors.
         <th> AIDI by Region </th>
     </tr>
     <tr>
-        <td><img src="InfrastructureDeficit_GenAI/blob/main/Images/AIDI.jpeg"/></td>
+        <td><img src="https://github.com/user-attachments/assets/31c59f19-8571-4d44-8ddb-8b6bd9f02cca"/></td>
     </tr>
 </table>
 
