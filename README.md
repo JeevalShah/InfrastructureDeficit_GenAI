@@ -32,7 +32,7 @@ Data for the following infrastructure sectors were collected:
 The data is normalized to ensure comparability across sectors.
 
 
-## Data Visualizations
+## Data Visualizations :tv:
 
 <table>
     <tr>
@@ -43,14 +43,32 @@ The data is normalized to ensure comparability across sectors.
     </tr>
 </table>
 
+<table>
+    <tr>
+        <th> ECI by Region </th>
+    </tr>
+    <tr>
+        <td><img src="https://github.com/user-attachments/assets/58524474-ac07-4891-9d52-f5198ab2adbd"/></td>
+    </tr>
+</table>
 
-[AIDI Prediction by Region](InfrastructureDeficit_GenAI\Images\AIDI.jpeg)
+<table>
+    <tr>
+        <th> TCI by Region </th>
+    </tr>
+    <tr>
+        <td><img src="https://github.com/user-attachments/assets/70998875-49b7-40e6-af2e-de10edb3946d"/></td>
+    </tr>
+</table>
 
-[ECI Prediction by Region](InfrastructureDeficit_GenAI\Images\ECI.jpeg)
-
-[Top And Bottom Performere Prediction](InfrastructureDeficit_GenAI\Images\perfromer.jpeg)
-
-[TCI Prediction](InfrastructureDeficit_GenAI\Images\TCI.jpeg)
+<table>
+    <tr>
+        <th> Top & Bottom Performers in Infastructure Indices </th>
+    </tr>
+    <tr>
+        <td><img src="https://github.com/user-attachments/assets/78e94623-abfb-4b6c-afb5-6486279dd272"/></td>
+    </tr>
+</table>
 
 ## Data Preprocessing
 The collected data was preprocessed to normalize the values between 0 and 1. This step ensures that the different infrastructure sector indices are on a comparable scale. The normalization process allows for a fair assessment and combination of the indices.
