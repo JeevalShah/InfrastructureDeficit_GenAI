@@ -87,11 +87,45 @@ Each model was evaluated based on Mean Absolute Error (MAE), Mean Squared Error 
 ## Evaluation
 The models were evaluated using the training data, and their performance metrics were recorded:
 
-- Linear Regression: MAE = 2.45, MSE = 10.82, R² = 0.97
-- Polynomial Regression: MAE = 1.59, MSE = 4.85, R² = 0.99
-- Decision Tree: MAE = 0.00, MSE = 0.00, R² = 1.00
-- Random Forest: MAE = 1.48, MSE = 7.24, R² = 0.98
-- Gradient Boosting: MAE = 0.18, MSE = 0.05, R² = 0.99
+<table>
+<thead><tr>
+<th><strong>Model Name</strong></th>
+<th><strong>MAE</strong></th>
+<th><strong>MSE</strong></th>
+<th><strong>R²</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Linear Regression</td>
+<td>2.45</td>
+<td>10.82</td>
+<td>0.97</td>
+</tr>
+<tr>
+<td>Polynomial Regression</td>
+<td>1.59</td>
+<td>4.85</td>
+<td>0.99</td>
+</tr>
+<tr>
+<td>Decision Tree</td>
+<td>0.00</td>
+<td>0.00</td>
+<td>1.00</td>
+</tr>
+<tr>
+<td>Random Forest</td>
+<td>1.48</td>
+<td>7.24</td>
+<td>0.98</td>
+</tr>
+<tr>
+<td>Gradient Boosting</td>
+<td>0.18</td>
+<td>0.05</td>
+<td>0.99</td>
+</tr>
 
 ## Cross Validation
 Cross-validation was performed to ensure the robustness of the models. The following metrics were obtained using 5-fold cross-validation:
