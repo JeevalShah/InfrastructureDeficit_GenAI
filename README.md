@@ -8,8 +8,8 @@ This repository contains a comprehensive analysis and predictive modeling for th
 - [Data Collection](#data-collection-floppy_disk)
 - [Data Preprocessing](#data-preprocessing)
 - [Data Visualizations](#data-visualizations-tv)
-5. Modeling
-6. Evaluation
+- [Modeling](#Modeling)
+- [Evaluation](#Evaluation)
 7. Cross Validation
 8. Predictions
 9. Data Analytics Chatbot Development 
