@@ -6,8 +6,8 @@ This repository contains a comprehensive analysis and predictive modeling for th
 
 - [Introduction](#Introduction)
 - [Data Collection](#data-collection-floppy_disk)
-3. Data Preprocessing
-4. Data Visualizations
+- [Data Preprocessing](#data-preprocessing)
+- [Data Visualizations](#data-visualizations-tv)
 5. Modeling
 6. Evaluation
 7. Cross Validation
@@ -31,6 +31,8 @@ Data for the following infrastructure sectors were collected:
 
 The data is normalized to ensure comparability across sectors.
 
+## Data Preprocessing
+The collected data was preprocessed to normalize the values between 0 and 1. This step ensures that the different infrastructure sector indices are on a comparable scale. The normalization process allows for a fair assessment and combination of the indices.
 
 ## Data Visualizations :tv:
 
@@ -69,9 +71,6 @@ The data is normalized to ensure comparability across sectors.
         <td><img src="https://github.com/user-attachments/assets/78e94623-abfb-4b6c-afb5-6486279dd272"/></td>
     </tr>
 </table>
-
-## Data Preprocessing
-The collected data was preprocessed to normalize the values between 0 and 1. This step ensures that the different infrastructure sector indices are on a comparable scale. The normalization process allows for a fair assessment and combination of the indices.
 
 ## Modeling
 Multiple models were trained to predict the AIDI:
