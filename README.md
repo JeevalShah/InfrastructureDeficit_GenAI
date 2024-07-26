@@ -34,6 +34,15 @@ The data is normalized to ensure comparability across sectors.
 
 ## Data Visualizations
 
+<table>
+    <tr>
+        <th> AIDI by Region </th>
+    </tr>
+    <tr>
+        <td><img src="InfrastructureDeficit_GenAI/blob/main/Images/AIDI.jpeg"/></td>
+    </tr>
+</table>
+
 
 [AIDI Prediction by Region](InfrastructureDeficit_GenAI\Images\AIDI.jpeg)
 
