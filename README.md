@@ -88,14 +88,17 @@ Each model was evaluated based on Mean Absolute Error (MAE), Mean Squared Error 
 The models were evaluated using the training data, and their performance metrics were recorded:
 
 <table>
-<thead><tr>
+<thead>
+<tr>
 <th><strong>Model Name</strong></th>
 <th><strong>MAE</strong></th>
 <th><strong>MSE</strong></th>
 <th><strong>R²</strong></th>
 </tr>
 </thead>
+    
 <tbody>
+
 <tr>
 <td>Linear Regression</td>
 <td>2.45</td>
@@ -126,6 +129,9 @@ The models were evaluated using the training data, and their performance metrics
 <td>0.05</td>
 <td>0.99</td>
 </tr>
+
+</tbody>
+</table>
 
 ## Cross Validation
 Cross-validation was performed to ensure the robustness of the models. The following metrics were obtained using 5-fold cross-validation:
