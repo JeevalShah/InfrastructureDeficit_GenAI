@@ -288,3 +288,6 @@ Install the dependencies using:
 ```bash
 pip install -r requirements.txt
 ```
+
+## Data Analytics Chatbot deployment
+https://t5chatbot-enbvmods2hclud7qy5ksvk.streamlit.app/
