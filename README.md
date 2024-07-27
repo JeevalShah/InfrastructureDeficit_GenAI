@@ -12,7 +12,7 @@ This repository contains a comprehensive analysis and predictive modeling for th
 - [Evaluation](#Evaluation)
 - [Cross Validation](#cross-validation)
 - [Predictions](#Predictions)
-9. Data Analytics Chatbot Development 
+- [Data Analytics Chatbot Development](#data-analytics-chatbot-development) 
 10 Conclusion and Recommendations
 11. How to Use
 12. Dependencies
