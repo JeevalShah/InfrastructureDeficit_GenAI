@@ -13,9 +13,9 @@ This repository contains a comprehensive analysis and predictive modeling for th
 - [Cross Validation](#cross-validation)
 - [Predictions](#Predictions)
 - [Data Analytics Chatbot Development](#data-analytics-chatbot-development) 
-10 Conclusion and Recommendations
-11. How to Use
-12. Dependencies
+- [Conclusion & Recommendations](#conclusion--recommendations)
+- [How to Use](#how-to-use)
+- [Dependencies](#dependencies)
 
 ## Introduction
 The African Infrastructure Development Index (AIDI) is a composite index used to evaluate infrastructure development across African countries. This project aims to predict the AIDI for different countries using data from various infrastructure sectors. The models built and evaluated in this project include Linear Regression, Ridge Regression, Lasso Regression, Decision Tree, Random Forest, and Gradient Boosting.
