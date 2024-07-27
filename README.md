@@ -10,8 +10,8 @@ This repository contains a comprehensive analysis and predictive modeling for th
 - [Data Visualizations](#data-visualizations-tv)
 - [Modeling](#Modeling)
 - [Evaluation](#Evaluation)
-7. Cross Validation
-8. Predictions
+- [Cross Validation](#cross-validation)
+- [Predictions](#Predictions)
 9. Data Analytics Chatbot Development 
 10 Conclusion and Recommendations
 11. How to Use
@@ -136,16 +136,59 @@ The models were evaluated using the training data, and their performance metrics
 ## Cross Validation
 Cross-validation was performed to ensure the robustness of the models. The following metrics were obtained using 5-fold cross-validation:
 
--Linear Regression: CV_MAE = 2.89, CV_MSE = 16.77, CV_R² = 0.95
-- Ridge Regression: CV_MAE = 2.88, CV_MSE = 16.72, CV_R² = 0.95
-- Lasso Regression: CV_MAE = 2.88, CV_MSE = 16.70, CV_R² = 0.95
-- Decision Tree: CV_MAE = 5.98, CV_MSE = 93.70, CV_R² = 0.71
-- Random Forest: CV_MAE = 3.83, CV_MSE = 46.39, CV_R² = 0.86
-- Gradient Boosting: CV_MAE = 4.67, CV_MSE = 60.47, CV_R² = 0.81
+<table>
+<thead>
+<tr>
+<th><strong>Model Name</strong></th>
+<th><strong>CV_MAE</strong></th>
+<th><strong>CV_MSE</strong></th>
+<th><strong>CV_R²</strong></th>
+</tr>
+</thead>
+    
+<tbody>
+<tr>
+<td>Linear Regression</td>
+<td>2.89</td>
+<td>16.77</td>
+<td>0.95</td>
+</tr>
+<tr>
+<td>Ridge Regression</td>
+<td>2.88</td>
+<td>16.72</td>
+<td>0.95</td>
+</tr>
+<tr>
+<td>Lasso Regression</td>
+<td>2.88</td>
+<td>16.70</td>
+<td>0.95</td>
+</tr>
+<tr>
+<td>Decision Tree</td>
+<td>5.98</td>
+<td>93.70</td>
+<td>0.71</td>
+</tr>
+<tr>
+<td>Random Forest</td>
+<td>3.83</td>
+<td>46.39</td>
+<td>0.86</td>
+</tr>
+<tr>
+<td>Gradient Boosting</td>
+<td>4.67</td>
+<td>60.47</td>
+<td>0.81</td>
+</tr>
 
+</tbody>
+</table>
 
 ## Predictions
-The models were used to predict the AIDI for specific countries. For example, the predicted AIDI mean% for Nigeria was 17.40, compared to the actual AIDI mean% of 17.16.
+The models were used to predict the AIDI for specific countries. For example, the predicted AIDI mean % for Nigeria was 17.40, compared to the actual AIDI mean % of 17.16.
 
 ## Data Analytics Chatbot Development
 
