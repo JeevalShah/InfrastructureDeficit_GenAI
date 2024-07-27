@@ -194,13 +194,13 @@ The models were used to predict the AIDI for specific countries. For example, th
 
 The T5 Data Analytics Chatbot is an interactive Streamlit application that allows users to analyze various datasets related to African infrastructure development. Powered by a large language model, this chatbot can answer questions about the data, providing insights and generating visualizations on demand.
 
-## Features
+### Features
 - Interactive data selection from multiple datasets
 - AI-powered question answering about the selected data
 - Dynamic data visualization
 - Question history tracking
 
-## Datasets
+### Datasets
 The application includes the following datasets:
 - Africa Infrastructure Development Index (AIDI)
 - Water and Sanitation Service (WSS) Composite Index
@@ -209,7 +209,7 @@ The application includes the following datasets:
 - Transport Composite Index
 - Fused Dataset (combined metrics)
 
-## Requirements
+### Requirements
 - Python 3.7+
 - Streamlit
 - Pandas
@@ -217,28 +217,27 @@ The application includes the following datasets:
 - LangChain
 - Groq API access
 
-## Usage
+### Usage
 1. Run the Streamlit app: streamlit run app.py
-
-2. 2. Select a dataset from the sidebar.
+2. Select a dataset from the sidebar.
 3. Enter your question about the data in the text input field.
 4. Click "Get Answer" to receive AI-generated insights.
 5. View any generated charts and your question history.
 
-## Configuration
+### Configuration
 - The `datasets` dictionary in the script can be modified to include additional datasets.
 - The AI model can be adjusted by changing the `model_name` in the `ChatGroq` initialization.
 
 
-## Conclusion
-The models developed in this project demonstrate a high degree of accuracy in predicting the AIDI. The Gradient Boosting model, in particular, showed excellent performance with an R² score close to 1.0, indicating a strong predictive capability.
+## Conclusion & Recommendations
+The models developed in this project demonstrate a high degree of accuracy in predicting the AIDI. The Gradient Boosting model, in particular, showed excellent performance with an R² score close to 1.0, indicating a strong predictive capability. The following recommendation were made:
 
-## Recommendations
 - Improved Data Collection: Future work should focus on collecting more granular data for each infrastructure sector to improve model accuracy.
 
 - Scaling Up: The current model is a prototype. Scaling it to real-world applications would involve using larger datasets and more sophisticated algorithms.
 
 - Additional Features: Incorporating additional features such as economic indicators and demographic data may improve prediction accuracy.
+
 
 ## How to Use
 To run the project, follow these steps:
@@ -269,5 +268,3 @@ Install the dependencies using:
 ```bash
 pip install -r requirements.txt
 ```
-
-
