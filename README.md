@@ -12,7 +12,8 @@ This repository contains a comprehensive analysis and predictive modeling for th
 - [Evaluation](#Evaluation)
 - [Cross Validation](#cross-validation)
 - [Predictions](#Predictions)
-- [Data Analytics Chatbot Development](#data-analytics-chatbot-development) 
+- [Data Analytics Chatbot Development](#data-analytics-chatbot-development)
+- [RAG PDG Chatbot](#RAG-PDG-Chatbot)
 - [Conclusion & Recommendations](#conclusion--recommendations)
 - [How to Use](#how-to-use)
 - [Dependencies](#dependencies)
@@ -192,7 +193,7 @@ The models were used to predict the AIDI for specific countries. For example, th
 
 ## Data Analytics Chatbot Development
 
-The T5 Data Analytics Chatbot is an interactive Streamlit application that allows users to analyze various datasets related to African infrastructure development. Powered by a large language model, this chatbot can answer questions about the data, providing insights and generating visualizations on demand.
+The T5 `Data Analytics Chatbot` is an interactive Streamlit application that allows users to analyze various datasets related to African infrastructure development. Powered by a large language model, this chatbot can answer questions about the data, providing insights and generating visualizations on demand.
 
 ### Features
 - Interactive data selection from multiple datasets
@@ -218,7 +219,7 @@ The application includes the following datasets:
 - Groq API access
 
 ### Usage
-1. Run the Streamlit app: streamlit run app.py
+1. Run the Streamlit app: `streamlit run app.py`
 2. Select a dataset from the sidebar.
 3. Enter your question about the data in the text input field.
 4. Click "Get Answer" to receive AI-generated insights.
@@ -228,6 +229,26 @@ The application includes the following datasets:
 - The `datasets` dictionary in the script can be modified to include additional datasets.
 - The AI model can be adjusted by changing the `model_name` in the `ChatGroq` initialization.
 
+## RAG PDG Chatbot
+The RAG (Retrieval-Augmented Generation) PDF chatbot is an advanced AI system designed to interact with users, providing answers and assistance based on the contents of PDF documents. Relevant information is retrieved from our knowledge base (PDF files) and a generative model is used to construct coherent and contextually appropriate responses based on the information in our PDF files.
+
+This solution is designed to communicate with lengthy research documents and give relevant information in a simple way.
+
+Two different chatbots were created for comparison and research purposes:
+1. Chatbot with OpenAI embeddings, GPT-3.5-Turbo Model, and Streamlit UI. This requires an OpenAI API key.
+2. Chatbot with Nomic Embeddings (Ollama Embeddings), Google Gemma-7B-it model (using GROQ API) and Chainlit UI. This solution is open source.
+
+### Features
+- **PDF Integration**: Designed to understand and extract information from multiple PDF documents, incluing text, tables, images, and other embedded elements.
+- **Contextual Understanding**: Understands the context of the user's query and retrieve the most relevant information from the PDF.
+- **Dynamic Responses**: The chatbot can generate detailed and customized responses, providing a more interactive and helpful user experience.
+- **Interactive Interface**: Users can ask questions and receive answers in a conversational manner, making it easy to navigate through complex documents.
+
+### Usage
+1. Run the Streamlit app or chainlit app: `streamlit run app_openai.py` / `chainlit run Groq_Chat.py`
+2. Upload your PDF documents and load them.
+3. Enter your question about the data in the text input field.
+4. Chat with your documents with history and contextuual capabilities like a chat.
 
 ## Conclusion & Recommendations
 The models developed in this project demonstrate a high degree of accuracy in predicting the AIDI. The Gradient Boosting model, in particular, showed excellent performance with an R² score close to 1.0, indicating a strong predictive capability. The following recommendation were made:
@@ -254,7 +275,6 @@ git https://github.com/JeevalShah/InfrastructureDeficit_GenAI.git
 python main.py
 ```
 
-
 ## Dependencies
 The project requires the following libraries:
 
@@ -262,7 +282,6 @@ The project requires the following libraries:
 - numpy
 - scikit-learn
 - matplotlib
-
 
 Install the dependencies using:
 ```bash
